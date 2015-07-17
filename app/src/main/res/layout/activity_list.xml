@@ -9,6 +9,8 @@
 		android:id="@+id/listView"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		tools:listitem="@android:layout/two_line_list_item" />
+		tools:listheader="@layout/list_header"
+		tools:listfooter="@layout/list_footer"
+		tools:listitem="@layout/list_item_custom"/>
 
 </RelativeLayout>

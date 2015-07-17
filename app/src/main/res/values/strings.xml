@@ -4,4 +4,7 @@
 	<string name="hello_world">Hello world!</string>
 	<string name="title_activity_list">ListActivity</string>
 	<string name="title_activity_sample">FragmentActivity</string>
+
+	<string name="msg_text">Text</string>
+	<string name="msg_text_hint">Example Text Hint</string>
 </resources>
