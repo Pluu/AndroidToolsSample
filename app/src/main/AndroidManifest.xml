@@ -18,19 +18,21 @@
         </activity>
         <activity
             android:name=".ListActivity"
-            android:label="@string/title_activity_list" >
+            android:label="@string/title_activity_list">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="com.pluusystem.toolsapplication.SAMPLE_CODE" />
             </intent-filter>
         </activity>
         <activity
             android:name=".SampleActivity"
             android:label="@string/title_activity_sample" >
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="com.pluusystem.toolsapplication.SAMPLE_CODE" />
-			</intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.pluusystem.toolsapplication.SAMPLE_CODE" />
+            </intent-filter>
         </activity>
     </application>
 
